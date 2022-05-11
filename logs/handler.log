@@ -1,0 +1,172 @@
+2022-05-11 21:57:25,322 [INFO] app: Browse page loading
+2022-05-11 22:17:58,016 [INFO] app: Browse page loading
+2022-05-11 23:21:01,619 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Name'],row['Artist']))
+KeyError: 'Name'
+2022-05-11 23:21:37,486 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Name'],row['Artist']))
+KeyError: 'Name'
+2022-05-11 23:23:51,818 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Name'],row['Artist']))
+KeyError: 'Name'
+2022-05-11 23:25:06,761 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Name'],row['Artist']))
+KeyError: 'Name'
+2022-05-11 23:25:35,111 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Title'],row['Artist']))
+KeyError: 'Name'
+2022-05-11 23:25:48,000 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Title'],row['Artist']))
+KeyError: 'Name'
+2022-05-11 23:29:05,756 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'],row['artist']))
+KeyError: 'Name'
+2022-05-11 23:33:23,920 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'],row['artist']))
+KeyError: 'Name'
+2022-05-11 23:35:56,460 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'],row['artist']))
+KeyError: 'Name'
+2022-05-11 23:37:19,047 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'],row['artist']))
+KeyError: 'Name'
