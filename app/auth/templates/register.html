@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block content %}
+    {% from 'bootstrap5/form.html' import render_form, render_field, render_form_row %}
+
+    <div class="row">
+        <div class="col-7">
+            <h2>Register</h2>
+            {{ render_form(form) }}
+        </div>
+        <div id="message" class="col-5">
+            <div id="letter" class="red">
+                <p id="lower_letter" class="invalid">has a lowercase letter</p>
+                <p id="upper_letter" class="invalid">has an uppercase letter</p>
+                <p id="number" class="invalid">has a number</p>
+                <p id="special_char" class="invalid">has a special character</p>
+                <p id="char_length" class="invalid">has at least 6 characters</p>
+            </div>
+
+        </div>
+    </div>
+    <style>
+
+        #message p {
+            padding: 3px 45px;
+        }
+
+        .invalid {
+            color: red;
+        }
+        .invalid:before {
+            position: relative;
+            left: -6px;
+            content: "✖";
+        }
+
+        .valid {
+            color: green;
+        }
+        .valid:before {
+            position: relative;
+            left: -6px;
+            content: "✔";
+        }
+
+    </style>
+
+    <script>
+        let passwordField = document.getElementById("password");
+        let lower_letter = document.getElementById("lower_letter");
+        let upper_letter = document.getElementById("upper_letter");
+        let number = document.getElementById("number");
+        let special_char = document.getElementById("special_char");
+        let char_length = document.getElementById("char_length");
+
+        passwordField.onkeyup = function () {
+
+            // validate lower case letters
+            let lowerCaseLetters = /[a-z]/g;
+
+            if(passwordField.value.match(lowerCaseLetters)){
+                lower_letter.classList.remove("invalid");
+                lower_letter.classList.add("valid");
+            }
+            else {
+                lower_letter.classList.remove("valid");
+                lower_letter.classList.add("invalid");
+            }
+
+            // validate upper case letters
+            let upperCaseLetters = /[A-Z]/g;
+
+            if(passwordField.value.match(upperCaseLetters)){
+                upper_letter.classList.remove("invalid");
+                upper_letter.classList.add("valid");
+            }
+            else {
+                upper_letter.classList.remove("valid");
+                upper_letter.classList.add("invalid");
+            }
+
+            // validate numbers
+            let numbers = /[0-9]/g;
+
+            if(passwordField.value.match(numbers)){
+                number.classList.remove("invalid");
+                number.classList.add("valid");
+            }
+            else {
+                number.classList.remove("valid");
+                number.classList.add("invalid");
+            }
+
+            // validate special characters
+            let specialCharacters = /[`!@#$%^&*()_+={};':"|,.<>/?~]/;
+
+            if(passwordField.value.match(specialCharacters)){
+                special_char.classList.remove("invalid");
+                special_char.classList.add("valid");
+            }
+            else {
+                special_char.classList.remove("valid");
+                special_char.classList.add("invalid");
+            }
+
+            // validate character length
+
+            if(passwordField.value.length >= 6){
+                char_length.classList.remove("invalid");
+                char_length.classList.add("valid");
+            }
+            else {
+                char_length.classList.remove("valid");
+                char_length.classList.add("invalid");
+            }
+        }
+
+    </script>
+
+{% endblock %}
