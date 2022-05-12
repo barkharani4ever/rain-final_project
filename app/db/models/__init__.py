@@ -9,6 +9,8 @@ from sqlalchemy_serializer import SerializerMixin
 
 class Song(db.Model,SerializerMixin):
     __tablename__ = 'songs'
+    serialize_only = ('title', 'artist')
+
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(300), nullable=True, unique=False)
     artist = db.Column(db.String(300), nullable=True, unique=False)
@@ -18,6 +20,12 @@ class Song(db.Model,SerializerMixin):
     def __init__(self, title, artist):
         self.title = title
         self.artist = artist
+
+    def serialize(self):
+        return {
+            'title': self.title,
+            'artist': self.artist,
+        }
 
 class User(UserMixin, db.Model):
     __tablename__ = 'users'
