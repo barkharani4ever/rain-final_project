@@ -9,8 +9,14 @@
 
 * [Developmental Deployment](https://final-rain-develop.herokuapp.com/)
 
+### register and log in
 --> This application allows users to register for an account and log in
---> Once logged in, users can upload songs under "Song Management" tab.
-    Unfortunately, I get an error when I do so.
+
+### upload csv file for songs
+--> Once logged in, users can upload songs under "Song Management" tab. Unfortunately, I get an error when I do so.
+
+### add songs manually
 --> However, the users can add songs manually under "Song Management (dt)" tab by clicking on the '+' button next to actions.
+
+### edit or delete songs
 --> Once a song is added, the user can edit it or delete it.
