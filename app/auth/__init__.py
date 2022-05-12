@@ -132,9 +132,9 @@ def add_user():
 @login_required
 def delete_user(user_id):
     user = User.query.get(user_id)
-    if user.id == current_user.id:
+    """if user.id == current_user.id:
         flash("You can't delete yourself!")
-        return redirect(url_for('auth.browse_users'), 302)
+        return redirect(url_for('auth.browse_users'), 302)"""
     db.session.delete(user)
     db.session.commit()
     flash('User Deleted', 'success')
