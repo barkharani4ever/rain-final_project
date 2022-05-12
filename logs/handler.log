@@ -170,3 +170,560 @@ Traceback (most recent call last):
   File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
     list_of_songs.append(Song(row['title'],row['artist']))
 KeyError: 'Name'
+2022-05-12 00:17:07,635 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 85, in songs_upload
+    Song(row['Name'],row['Artist']))
+KeyError: 'Name'
+2022-05-12 00:19:14,907 [ERROR] app: Exception on /songs/new [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 123, in add_song
+    flash('Added a song', 'success')
+NameError: name 'flash' is not defined
+2022-05-12 00:19:21,436 [ERROR] app: Exception on /songs_datatables/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/myuser/app/songs/__init__.py", line 40, in browse_songs_datatables
+    return render_template('browse_songs_datatables.html', add_url=add_url, edit_url=edit_url,
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    return _render(
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/myuser/app/songs/templates/browse_songs_datatables.html", line 3, in top-level template code
+    {% from "bootstrap5/pagination.html" import render_pagination %}
+  File "/home/myuser/app/templates/base.html", line 76, in top-level template code
+    {% block content %}
+  File "/home/myuser/app/songs/templates/browse_songs_datatables.html", line 11, in block 'content'
+    {{ render_table(data,show_actions=True, table_classes='table-striped', header_classes='thead-dark', responsive=True, responsive_class='table-responsive-sm', model=Song,
+  File "/usr/local/lib/python3.8/site-packages/jinja2/runtime.py", line 777, in _invoke
+    rv = self._func(*arguments)
+  File "/usr/local/lib/python3.8/site-packages/flask_bootstrap/templates/base/table.html", line 106, in template
+    href="{{ build_url(view_url[0], model, row[primary_key], view_url[1]) | trim }}"
+  File "/usr/local/lib/python3.8/site-packages/jinja2/runtime.py", line 777, in _invoke
+    rv = self._func(*arguments)
+  File "/usr/local/lib/python3.8/site-packages/flask_bootstrap/templates/base/table.html", line 24, in template
+    {{ arg_url_for(endpoint, url_params) }}
+  File "/usr/local/lib/python3.8/site-packages/jinja2/runtime.py", line 777, in _invoke
+    rv = self._func(*arguments)
+  File "/usr/local/lib/python3.8/site-packages/flask_bootstrap/templates/base/utils.html", line 30, in template
+    {{ url_for(endpoint, **kargs) }}
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.edit_song' with values ['song_id']. Did you forget to specify values ['song']?
+2022-05-12 00:19:28,350 [ERROR] app: Exception on /songs_datatables/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/myuser/app/songs/__init__.py", line 40, in browse_songs_datatables
+    return render_template('browse_songs_datatables.html', add_url=add_url, edit_url=edit_url,
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    return _render(
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/myuser/app/songs/templates/browse_songs_datatables.html", line 3, in top-level template code
+    {% from "bootstrap5/pagination.html" import render_pagination %}
+  File "/home/myuser/app/templates/base.html", line 76, in top-level template code
+    {% block content %}
+  File "/home/myuser/app/songs/templates/browse_songs_datatables.html", line 11, in block 'content'
+    {{ render_table(data,show_actions=True, table_classes='table-striped', header_classes='thead-dark', responsive=True, responsive_class='table-responsive-sm', model=Song,
+  File "/usr/local/lib/python3.8/site-packages/jinja2/runtime.py", line 777, in _invoke
+    rv = self._func(*arguments)
+  File "/usr/local/lib/python3.8/site-packages/flask_bootstrap/templates/base/table.html", line 106, in template
+    href="{{ build_url(view_url[0], model, row[primary_key], view_url[1]) | trim }}"
+  File "/usr/local/lib/python3.8/site-packages/jinja2/runtime.py", line 777, in _invoke
+    rv = self._func(*arguments)
+  File "/usr/local/lib/python3.8/site-packages/flask_bootstrap/templates/base/table.html", line 24, in template
+    {{ arg_url_for(endpoint, url_params) }}
+  File "/usr/local/lib/python3.8/site-packages/jinja2/runtime.py", line 777, in _invoke
+    rv = self._func(*arguments)
+  File "/usr/local/lib/python3.8/site-packages/flask_bootstrap/templates/base/utils.html", line 30, in template
+    {{ url_for(endpoint, **kargs) }}
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.edit_song' with values ['song_id']. Did you forget to specify values ['song']?
+2022-05-12 00:23:35,379 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 85, in songs_upload
+    Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 00:23:47,041 [ERROR] app: Exception on /songs/1/delete [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 137, in delete_song
+    flash('Song deleted', 'success')
+NameError: name 'flash' is not defined
+2022-05-12 00:24:08,415 [ERROR] app: Exception on /songs/new [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 123, in add_song
+    flash('Added a song', 'success')
+NameError: name 'flash' is not defined
+2022-05-12 00:31:54,577 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 85, in songs_upload
+    Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 00:43:10,434 [ERROR] app: Exception on /songs/1/delete [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 140, in delete_song
+    return redirect(url_for('songs.browse_songs'), 302)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.browse_songs'. Did you mean 'songs.browse_songs_datatables' instead?
+2022-05-12 00:43:55,494 [ERROR] app: Exception on /songs/1/delete [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 140, in delete_song
+    return redirect(url_for('songs.browse_songs'), 302)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.browse_songs'. Did you mean 'songs.browse_songs_datatables' instead?
+2022-05-12 00:48:01,246 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 86, in songs_upload
+    list_of_songs.append(Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 00:50:16,832 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 86, in songs_upload
+    list_of_songs.append(Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 00:51:30,843 [ERROR] app: Exception on /songs/1/edit [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 103, in edit_song
+    form = song_edit_form(obj=location)
+NameError: name 'location' is not defined
+2022-05-12 00:54:38,361 [INFO] app: edited the song
+2022-05-12 00:54:44,520 [INFO] app: edited the song
+2022-05-12 00:54:59,532 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 86, in songs_upload
+    list_of_songs.append(Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 00:57:55,336 [ERROR] app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/myuser/app/simple_pages/__init__.py", line 11, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    return _render(
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/myuser/app/simple_pages/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/myuser/app/templates/base.html", line 58, in top-level template code
+    <li><a class="dropdown-item" href="{{ url_for("songs.browse_songs") }}">Song Management (dt)</a></li>
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.browse_songs'. Did you mean 'songs.browse_songs_datatables' instead?
+2022-05-12 00:57:59,408 [ERROR] app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/myuser/app/simple_pages/__init__.py", line 11, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    return _render(
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/myuser/app/simple_pages/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/myuser/app/templates/base.html", line 58, in top-level template code
+    <li><a class="dropdown-item" href="{{ url_for("songs.browse_songs") }}">Song Management (dt)</a></li>
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.browse_songs'. Did you mean 'songs.browse_songs_datatables' instead?
+2022-05-12 00:58:38,838 [ERROR] app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/myuser/app/simple_pages/__init__.py", line 11, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    return _render(
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/myuser/app/simple_pages/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/myuser/app/templates/base.html", line 58, in top-level template code
+    <li><a class="dropdown-item" href="{{ url_for("songs.songs_browse") }}">Song Management (dt)</a></li>
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.browse_songs'. Did you mean 'songs.browse_songs_datatables' instead?
+2022-05-12 00:58:50,555 [ERROR] app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/myuser/app/simple_pages/__init__.py", line 11, in index
+    return render_template('index.html')
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 148, in render_template
+    return _render(
+  File "/usr/local/lib/python3.8/site-packages/flask/templating.py", line 128, in _render
+    rv = template.render(context)
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.8/site-packages/jinja2/environment.py", line 926, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/myuser/app/simple_pages/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/myuser/app/templates/base.html", line 58, in top-level template code
+    <li><a class="dropdown-item" href="{{ url_for("songs.browse_songs_datatables") }}">Song Management</a></li>
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/usr/local/lib/python3.8/site-packages/flask/helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "/usr/local/lib/python3.8/site-packages/werkzeug/routing.py", line 2307, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'songs.browse_songs'. Did you mean 'songs.browse_songs_datatables' instead?
+2022-05-12 00:59:58,188 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 86, in songs_upload
+    list_of_songs.append(Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 01:00:26,775 [INFO] app: edited the song
+2022-05-12 01:01:29,356 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 86, in songs_upload
+    list_of_songs.append(Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 01:06:27,134 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 86, in songs_upload
+    list_of_songs.append(Song(row['title'], row['artist']))
+KeyError: 'title'
+2022-05-12 01:14:03,866 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 85, in songs_upload
+KeyError: 'title'
+2022-05-12 01:19:04,750 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'], row['artist']))
+KeyError: 'title'
+2022-05-12 01:38:58,581 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(column['title'], column['artist']))
+KeyError: 'title'
+2022-05-12 01:59:54,116 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'], row['artist']))
+KeyError: 'title'
+2022-05-12 02:05:38,843 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['Name'], row['Artist']))
+KeyError: 'Name'
+2022-05-12 02:07:47,780 [ERROR] app: Exception on /songs/upload [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/site-packages/flask/app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/usr/local/lib/python3.8/site-packages/flask_login/utils.py", line 277, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+  File "/home/myuser/app/songs/__init__.py", line 84, in songs_upload
+    list_of_songs.append(Song(row['title'], row['artist']))
+KeyError: 'title'

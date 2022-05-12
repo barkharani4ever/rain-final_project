@@ -49,4 +49,3 @@ Faker
 python-dotenv
 sqlalchemy-serializer
 rfc3339
-Flask-CORS

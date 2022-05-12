@@ -7821,3 +7821,1752 @@ FROM users
 WHERE users.id = ?
 2022-05-11 23:37:19,025 [INFO] sqlalchemy.engine.Engine: [cached since 744s ago] (1,)
 2022-05-11 23:37:19,075 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:16:18,073 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:16:18,104 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:16:18,122 [INFO] sqlalchemy.engine.Engine: [generated in 0.01758s] (1,)
+2022-05-12 00:16:18,854 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:16:23,309 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:16:23,317 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:16:23,326 [INFO] sqlalchemy.engine.Engine: [generated in 0.00915s] ()
+2022-05-12 00:16:23,344 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:16:23,346 [INFO] sqlalchemy.engine.Engine: [cached since 5.242s ago] (1,)
+2022-05-12 00:16:23,495 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:17:00,193 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:17:00,210 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:17:00,220 [INFO] sqlalchemy.engine.Engine: [cached since 42.15s ago] (1,)
+2022-05-12 00:17:00,320 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:17:07,559 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:17:07,563 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:17:07,573 [INFO] sqlalchemy.engine.Engine: [cached since 49.5s ago] (1,)
+2022-05-12 00:17:07,648 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:17:44,484 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:17:44,489 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:17:44,497 [INFO] sqlalchemy.engine.Engine: [cached since 86.46s ago] (1,)
+2022-05-12 00:17:44,522 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:17:46,544 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:17:46,549 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:17:46,557 [INFO] sqlalchemy.engine.Engine: [cached since 83.31s ago] ()
+2022-05-12 00:17:46,571 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:17:46,580 [INFO] sqlalchemy.engine.Engine: [cached since 88.54s ago] (1,)
+2022-05-12 00:17:46,593 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:18:52,486 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:18:52,497 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:18:52,503 [INFO] sqlalchemy.engine.Engine: [cached since 154.6s ago] (1,)
+2022-05-12 00:18:52,539 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:19:14,802 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:19:14,808 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:19:14,816 [INFO] sqlalchemy.engine.Engine: [cached since 176.9s ago] (1,)
+2022-05-12 00:19:14,839 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 00:19:14,842 [INFO] sqlalchemy.engine.Engine: [generated in 0.00338s] ('One Last Time', 1, 0)
+2022-05-12 00:19:14,855 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 00:19:14,859 [INFO] sqlalchemy.engine.Engine: [generated in 0.00337s] ('One Last Time', 'Ariana Grande', None)
+2022-05-12 00:19:14,887 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:19:19,066 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:19:19,073 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:19:19,080 [INFO] sqlalchemy.engine.Engine: [cached since 181.2s ago] (1,)
+2022-05-12 00:19:19,120 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:19:21,405 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:19:21,408 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:19:21,411 [INFO] sqlalchemy.engine.Engine: [cached since 178.3s ago] ()
+2022-05-12 00:19:21,420 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:19:21,424 [INFO] sqlalchemy.engine.Engine: [cached since 183.5s ago] (1,)
+2022-05-12 00:19:21,463 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:19:26,171 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:19:26,179 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:19:26,186 [INFO] sqlalchemy.engine.Engine: [cached since 188.3s ago] (1,)
+2022-05-12 00:19:26,215 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:19:28,304 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:19:28,315 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:19:28,318 [INFO] sqlalchemy.engine.Engine: [cached since 185.2s ago] ()
+2022-05-12 00:19:28,334 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:19:28,338 [INFO] sqlalchemy.engine.Engine: [cached since 190.4s ago] (1,)
+2022-05-12 00:19:28,369 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:20,140 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:20,146 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:20,150 [INFO] sqlalchemy.engine.Engine: [generated in 0.00348s] (1,)
+2022-05-12 00:23:20,637 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:23,073 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:23,091 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:23:23,098 [INFO] sqlalchemy.engine.Engine: [generated in 0.00711s] ()
+2022-05-12 00:23:23,113 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:23,119 [INFO] sqlalchemy.engine.Engine: [cached since 2.973s ago] (1,)
+2022-05-12 00:23:23,258 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:28,977 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:28,984 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:28,988 [INFO] sqlalchemy.engine.Engine: [cached since 8.842s ago] (1,)
+2022-05-12 00:23:29,025 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:35,337 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:35,343 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:35,346 [INFO] sqlalchemy.engine.Engine: [cached since 15.2s ago] (1,)
+2022-05-12 00:23:35,393 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:41,595 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:41,599 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:41,606 [INFO] sqlalchemy.engine.Engine: [cached since 21.46s ago] (1,)
+2022-05-12 00:23:41,630 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:43,620 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:43,624 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:23:43,629 [INFO] sqlalchemy.engine.Engine: [cached since 20.54s ago] ()
+2022-05-12 00:23:43,641 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:43,648 [INFO] sqlalchemy.engine.Engine: [cached since 23.5s ago] (1,)
+2022-05-12 00:23:43,663 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:46,962 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:46,966 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:46,969 [INFO] sqlalchemy.engine.Engine: [cached since 26.82s ago] (1,)
+2022-05-12 00:23:46,979 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:23:46,982 [INFO] sqlalchemy.engine.Engine: [generated in 0.00277s] (1,)
+2022-05-12 00:23:46,993 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 00:23:46,995 [INFO] sqlalchemy.engine.Engine: [generated in 0.00266s] (1,)
+2022-05-12 00:23:47,019 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:23:51,481 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:51,490 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:51,498 [INFO] sqlalchemy.engine.Engine: [cached since 31.39s ago] (1,)
+2022-05-12 00:23:51,531 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:53,754 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:53,762 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:23:53,765 [INFO] sqlalchemy.engine.Engine: [cached since 30.71s ago] ()
+2022-05-12 00:23:53,774 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:53,781 [INFO] sqlalchemy.engine.Engine: [cached since 33.67s ago] (1,)
+2022-05-12 00:23:53,792 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:23:57,590 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:23:57,593 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:23:57,595 [INFO] sqlalchemy.engine.Engine: [cached since 37.48s ago] (1,)
+2022-05-12 00:23:57,624 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:24:08,203 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:24:08,214 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:24:08,224 [INFO] sqlalchemy.engine.Engine: [cached since 48.11s ago] (1,)
+2022-05-12 00:24:08,260 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 00:24:08,282 [INFO] sqlalchemy.engine.Engine: [generated in 0.02150s] ('One Last Time', 1, 0)
+2022-05-12 00:24:08,306 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 00:24:08,313 [INFO] sqlalchemy.engine.Engine: [generated in 0.00702s] ('One Last Time', 'Ariana Grande', None)
+2022-05-12 00:24:08,387 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:24:11,328 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:24:11,333 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:24:11,341 [INFO] sqlalchemy.engine.Engine: [cached since 51.23s ago] (1,)
+2022-05-12 00:24:11,391 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:24:13,318 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:24:13,327 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:24:13,331 [INFO] sqlalchemy.engine.Engine: [cached since 50.27s ago] ()
+2022-05-12 00:24:13,343 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:24:13,348 [INFO] sqlalchemy.engine.Engine: [cached since 53.24s ago] (1,)
+2022-05-12 00:24:13,357 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:31:43,739 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:31:43,770 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:31:43,789 [INFO] sqlalchemy.engine.Engine: [generated in 0.01877s] (1,)
+2022-05-12 00:31:44,139 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:31:46,429 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:31:46,435 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:31:46,438 [INFO] sqlalchemy.engine.Engine: [generated in 0.00296s] ()
+2022-05-12 00:31:46,451 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:31:46,453 [INFO] sqlalchemy.engine.Engine: [cached since 2.683s ago] (1,)
+2022-05-12 00:31:46,591 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:31:48,710 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:31:48,720 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:31:48,724 [INFO] sqlalchemy.engine.Engine: [cached since 4.988s ago] (1,)
+2022-05-12 00:31:48,781 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:31:54,536 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:31:54,542 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:31:54,546 [INFO] sqlalchemy.engine.Engine: [cached since 10.81s ago] (1,)
+2022-05-12 00:31:54,590 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:42:53,660 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:42:53,690 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:42:53,770 [INFO] sqlalchemy.engine.Engine: [generated in 0.08093s] (1,)
+2022-05-12 00:42:54,137 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:42:56,278 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:42:56,286 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:42:56,293 [INFO] sqlalchemy.engine.Engine: [generated in 0.00721s] ()
+2022-05-12 00:42:56,310 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:42:56,317 [INFO] sqlalchemy.engine.Engine: [cached since 2.628s ago] (1,)
+2022-05-12 00:42:56,501 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:42:58,971 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:42:58,976 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:42:58,979 [INFO] sqlalchemy.engine.Engine: [cached since 5.29s ago] (1,)
+2022-05-12 00:42:59,040 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:07,770 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:07,775 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:43:07,782 [INFO] sqlalchemy.engine.Engine: [cached since 11.5s ago] ()
+2022-05-12 00:43:07,800 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:07,813 [INFO] sqlalchemy.engine.Engine: [cached since 14.12s ago] (1,)
+2022-05-12 00:43:07,847 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:10,316 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:10,319 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:10,327 [INFO] sqlalchemy.engine.Engine: [cached since 16.64s ago] (1,)
+2022-05-12 00:43:10,363 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:43:10,373 [INFO] sqlalchemy.engine.Engine: [generated in 0.01091s] (1,)
+2022-05-12 00:43:10,394 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 00:43:10,397 [INFO] sqlalchemy.engine.Engine: [generated in 0.00282s] (1,)
+2022-05-12 00:43:10,416 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:43:13,518 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:13,534 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:13,599 [INFO] sqlalchemy.engine.Engine: [cached since 19.91s ago] (1,)
+2022-05-12 00:43:13,691 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:17,202 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:17,206 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:43:17,210 [INFO] sqlalchemy.engine.Engine: [cached since 20.96s ago] ()
+2022-05-12 00:43:17,227 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:17,230 [INFO] sqlalchemy.engine.Engine: [cached since 23.58s ago] (1,)
+2022-05-12 00:43:17,246 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:21,757 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:21,763 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:21,767 [INFO] sqlalchemy.engine.Engine: [cached since 28.11s ago] (1,)
+2022-05-12 00:43:21,805 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:40,996 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:41,005 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:41,016 [INFO] sqlalchemy.engine.Engine: [cached since 47.36s ago] (1,)
+2022-05-12 00:43:41,034 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 00:43:41,038 [INFO] sqlalchemy.engine.Engine: [generated in 0.00368s] ('Angel Baby', 1, 0)
+2022-05-12 00:43:41,050 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 00:43:41,053 [INFO] sqlalchemy.engine.Engine: [generated in 0.00300s] ('Angel Baby', 'Troye Sivan', None)
+2022-05-12 00:43:41,084 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:43:41,142 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:41,145 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 00:43:41,148 [INFO] sqlalchemy.engine.Engine: [generated in 0.00263s] (10, 0)
+2022-05-12 00:43:41,165 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 00:43:41,169 [INFO] sqlalchemy.engine.Engine: [generated in 0.00318s] ()
+2022-05-12 00:43:41,184 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:41,191 [INFO] sqlalchemy.engine.Engine: [cached since 47.54s ago] (1,)
+2022-05-12 00:43:41,228 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:51,557 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:51,568 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:43:51,573 [INFO] sqlalchemy.engine.Engine: [cached since 55.36s ago] ()
+2022-05-12 00:43:51,589 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:51,593 [INFO] sqlalchemy.engine.Engine: [cached since 57.97s ago] (1,)
+2022-05-12 00:43:51,613 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:43:55,416 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:55,420 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:55,424 [INFO] sqlalchemy.engine.Engine: [cached since 61.8s ago] (1,)
+2022-05-12 00:43:55,434 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:43:55,436 [INFO] sqlalchemy.engine.Engine: [cached since 45.14s ago] (1,)
+2022-05-12 00:43:55,444 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 00:43:55,447 [INFO] sqlalchemy.engine.Engine: [cached since 45.12s ago] (1,)
+2022-05-12 00:43:55,472 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:43:58,423 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:43:58,427 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:43:58,431 [INFO] sqlalchemy.engine.Engine: [cached since 64.81s ago] (1,)
+2022-05-12 00:43:58,464 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:47:46,138 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:47:46,117 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:47:46,121 [INFO] sqlalchemy.engine.Engine: [generated in 0.00377s] (1,)
+2022-05-12 00:47:46,406 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:47:48,626 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:47:48,632 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:47:48,640 [INFO] sqlalchemy.engine.Engine: [generated in 0.00822s] ()
+2022-05-12 00:47:48,650 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:47:48,655 [INFO] sqlalchemy.engine.Engine: [cached since 2.538s ago] (1,)
+2022-05-12 00:47:48,819 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:47:51,696 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:47:51,710 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:47:51,713 [INFO] sqlalchemy.engine.Engine: [cached since 5.596s ago] (1,)
+2022-05-12 00:47:51,756 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:01,211 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:01,215 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:01,219 [INFO] sqlalchemy.engine.Engine: [cached since 15.1s ago] (1,)
+2022-05-12 00:48:01,261 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:04,828 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:04,842 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:04,859 [INFO] sqlalchemy.engine.Engine: [cached since 18.74s ago] (1,)
+2022-05-12 00:48:04,982 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:08,024 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:08,032 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:48:08,037 [INFO] sqlalchemy.engine.Engine: [cached since 19.4s ago] ()
+2022-05-12 00:48:08,050 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:08,055 [INFO] sqlalchemy.engine.Engine: [cached since 21.94s ago] (1,)
+2022-05-12 00:48:08,066 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:11,424 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:11,429 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:11,437 [INFO] sqlalchemy.engine.Engine: [cached since 25.32s ago] (1,)
+2022-05-12 00:48:11,467 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:24,921 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:24,935 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:24,948 [INFO] sqlalchemy.engine.Engine: [cached since 38.87s ago] (1,)
+2022-05-12 00:48:24,974 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 00:48:24,985 [INFO] sqlalchemy.engine.Engine: [generated in 0.01196s] ('Angel Baby', 1, 0)
+2022-05-12 00:48:25,006 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 00:48:25,013 [INFO] sqlalchemy.engine.Engine: [generated in 0.00693s] ('Angel Baby', 'Troye Sivan', None)
+2022-05-12 00:48:25,040 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:48:25,146 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:25,153 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 00:48:25,160 [INFO] sqlalchemy.engine.Engine: [generated in 0.00773s] (10, 0)
+2022-05-12 00:48:25,200 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 00:48:25,206 [INFO] sqlalchemy.engine.Engine: [generated in 0.00706s] ()
+2022-05-12 00:48:25,222 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:25,225 [INFO] sqlalchemy.engine.Engine: [cached since 39.14s ago] (1,)
+2022-05-12 00:48:25,274 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:29,755 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:29,760 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:48:29,768 [INFO] sqlalchemy.engine.Engine: [cached since 41.17s ago] ()
+2022-05-12 00:48:29,783 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:29,790 [INFO] sqlalchemy.engine.Engine: [cached since 43.71s ago] (1,)
+2022-05-12 00:48:29,801 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:48:32,784 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:32,791 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:32,794 [INFO] sqlalchemy.engine.Engine: [cached since 46.71s ago] (1,)
+2022-05-12 00:48:32,808 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:48:32,812 [INFO] sqlalchemy.engine.Engine: [generated in 0.00404s] (1,)
+2022-05-12 00:48:32,820 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 00:48:32,823 [INFO] sqlalchemy.engine.Engine: [generated in 0.00297s] (1,)
+2022-05-12 00:48:32,844 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:48:32,879 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:48:32,883 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:48:32,886 [INFO] sqlalchemy.engine.Engine: [cached since 44.29s ago] ()
+2022-05-12 00:48:32,898 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:48:32,901 [INFO] sqlalchemy.engine.Engine: [cached since 46.82s ago] (1,)
+2022-05-12 00:48:32,912 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:07,204 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:07,214 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:07,218 [INFO] sqlalchemy.engine.Engine: [generated in 0.00417s] (1,)
+2022-05-12 00:50:07,504 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:09,233 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:09,240 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:50:09,243 [INFO] sqlalchemy.engine.Engine: [generated in 0.00349s] ()
+2022-05-12 00:50:09,257 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:09,260 [INFO] sqlalchemy.engine.Engine: [cached since 2.046s ago] (1,)
+2022-05-12 00:50:09,429 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:11,521 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:11,528 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:11,531 [INFO] sqlalchemy.engine.Engine: [cached since 4.317s ago] (1,)
+2022-05-12 00:50:11,565 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:16,794 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:16,797 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:16,802 [INFO] sqlalchemy.engine.Engine: [cached since 9.668s ago] (1,)
+2022-05-12 00:50:16,844 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:21,093 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:21,100 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:21,108 [INFO] sqlalchemy.engine.Engine: [cached since 13.97s ago] (1,)
+2022-05-12 00:50:21,136 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:23,347 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:23,352 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:50:23,357 [INFO] sqlalchemy.engine.Engine: [cached since 14.2s ago] ()
+2022-05-12 00:50:23,371 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:23,374 [INFO] sqlalchemy.engine.Engine: [cached since 16.24s ago] (1,)
+2022-05-12 00:50:23,386 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:25,148 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:25,152 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:25,157 [INFO] sqlalchemy.engine.Engine: [cached since 18.02s ago] (1,)
+2022-05-12 00:50:25,193 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:33,082 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:33,090 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:33,095 [INFO] sqlalchemy.engine.Engine: [cached since 25.96s ago] (1,)
+2022-05-12 00:50:33,113 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 00:50:33,118 [INFO] sqlalchemy.engine.Engine: [generated in 0.00429s] ('Angel Baby', 1, 0)
+2022-05-12 00:50:33,129 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 00:50:33,135 [INFO] sqlalchemy.engine.Engine: [generated in 0.00622s] ('Angel Baby', 'Troye Sivan', None)
+2022-05-12 00:50:33,171 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:50:33,211 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:33,217 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 00:50:33,221 [INFO] sqlalchemy.engine.Engine: [generated in 0.00341s] (10, 0)
+2022-05-12 00:50:33,236 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 00:50:33,239 [INFO] sqlalchemy.engine.Engine: [generated in 0.00359s] ()
+2022-05-12 00:50:33,247 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:33,250 [INFO] sqlalchemy.engine.Engine: [cached since 26.12s ago] (1,)
+2022-05-12 00:50:33,279 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:50:35,684 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:50:35,689 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:50:35,697 [INFO] sqlalchemy.engine.Engine: [cached since 26.54s ago] ()
+2022-05-12 00:50:35,711 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:50:35,718 [INFO] sqlalchemy.engine.Engine: [cached since 28.58s ago] (1,)
+2022-05-12 00:50:35,731 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:51:30,807 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:51:30,812 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:51:30,815 [INFO] sqlalchemy.engine.Engine: [cached since 83.71s ago] (1,)
+2022-05-12 00:51:30,831 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:51:30,835 [INFO] sqlalchemy.engine.Engine: [generated in 0.00346s] (1,)
+2022-05-12 00:51:30,863 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:19,987 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:20,010 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:20,015 [INFO] sqlalchemy.engine.Engine: [generated in 0.00549s] (1,)
+2022-05-12 00:54:20,434 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:22,885 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:22,892 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:54:22,895 [INFO] sqlalchemy.engine.Engine: [generated in 0.00303s] ()
+2022-05-12 00:54:22,906 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:22,911 [INFO] sqlalchemy.engine.Engine: [cached since 2.902s ago] (1,)
+2022-05-12 00:54:23,063 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:26,559 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:26,562 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:26,565 [INFO] sqlalchemy.engine.Engine: [cached since 6.555s ago] (1,)
+2022-05-12 00:54:26,629 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:54:26,635 [INFO] sqlalchemy.engine.Engine: [generated in 0.00603s] (1,)
+2022-05-12 00:54:26,667 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:38,245 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:38,252 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:38,258 [INFO] sqlalchemy.engine.Engine: [cached since 18.25s ago] (1,)
+2022-05-12 00:54:38,282 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:54:38,289 [INFO] sqlalchemy.engine.Engine: [cached since 11.66s ago] (1,)
+2022-05-12 00:54:38,302 [INFO] sqlalchemy.engine.Engine: UPDATE songs SET artist=? WHERE songs.id = ?
+2022-05-12 00:54:38,307 [INFO] sqlalchemy.engine.Engine: [generated in 0.00447s] ('Troye S.', 1)
+2022-05-12 00:54:38,336 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:54:38,393 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:38,401 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:54:38,407 [INFO] sqlalchemy.engine.Engine: [cached since 15.51s ago] ()
+2022-05-12 00:54:38,429 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:38,434 [INFO] sqlalchemy.engine.Engine: [cached since 18.42s ago] (1,)
+2022-05-12 00:54:38,446 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:43,092 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:43,097 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:43,101 [INFO] sqlalchemy.engine.Engine: [cached since 23.09s ago] (1,)
+2022-05-12 00:54:43,116 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:54:43,118 [INFO] sqlalchemy.engine.Engine: [cached since 16.49s ago] (1,)
+2022-05-12 00:54:43,129 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:44,479 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:44,483 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:44,487 [INFO] sqlalchemy.engine.Engine: [cached since 24.48s ago] (1,)
+2022-05-12 00:54:44,502 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:54:44,505 [INFO] sqlalchemy.engine.Engine: [cached since 17.88s ago] (1,)
+2022-05-12 00:54:44,517 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:54:44,559 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:44,565 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:54:44,570 [INFO] sqlalchemy.engine.Engine: [cached since 21.68s ago] ()
+2022-05-12 00:54:44,587 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:44,589 [INFO] sqlalchemy.engine.Engine: [cached since 24.58s ago] (1,)
+2022-05-12 00:54:44,604 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:48,796 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:48,801 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:48,807 [INFO] sqlalchemy.engine.Engine: [cached since 28.83s ago] (1,)
+2022-05-12 00:54:48,816 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 00:54:48,820 [INFO] sqlalchemy.engine.Engine: [cached since 22.22s ago] (1,)
+2022-05-12 00:54:48,828 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 00:54:48,831 [INFO] sqlalchemy.engine.Engine: [generated in 0.00328s] (1,)
+2022-05-12 00:54:48,851 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 00:54:48,896 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:48,902 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 00:54:48,905 [INFO] sqlalchemy.engine.Engine: [cached since 26.05s ago] ()
+2022-05-12 00:54:48,920 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:48,923 [INFO] sqlalchemy.engine.Engine: [cached since 28.95s ago] (1,)
+2022-05-12 00:54:48,939 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:51,834 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:51,845 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:51,850 [INFO] sqlalchemy.engine.Engine: [cached since 31.87s ago] (1,)
+2022-05-12 00:54:51,895 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:54:59,335 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:54:59,395 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:54:59,440 [INFO] sqlalchemy.engine.Engine: [cached since 39.46s ago] (1,)
+2022-05-12 00:54:59,554 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:57:12,407 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:57:12,420 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:57:12,431 [INFO] sqlalchemy.engine.Engine: [cached since 172.6s ago] (1,)
+2022-05-12 00:57:12,453 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:57:55,056 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:57:55,061 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:57:55,065 [INFO] sqlalchemy.engine.Engine: [generated in 0.00424s] (1,)
+2022-05-12 00:57:55,371 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:57:59,363 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:57:59,378 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:57:59,382 [INFO] sqlalchemy.engine.Engine: [cached since 4.321s ago] (1,)
+2022-05-12 00:57:59,428 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:58:38,775 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:58:38,783 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:58:38,791 [INFO] sqlalchemy.engine.Engine: [cached since 43.76s ago] (1,)
+2022-05-12 00:58:38,866 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:58:50,505 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:58:50,509 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:58:50,516 [INFO] sqlalchemy.engine.Engine: [cached since 55.52s ago] (1,)
+2022-05-12 00:58:50,579 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:59:43,315 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:59:43,323 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:59:43,326 [INFO] sqlalchemy.engine.Engine: [generated in 0.00294s] (1,)
+2022-05-12 00:59:43,929 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:59:46,819 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:59:46,825 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 00:59:46,827 [INFO] sqlalchemy.engine.Engine: [generated in 0.00248s] (10, 0)
+2022-05-12 00:59:46,848 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 00:59:46,852 [INFO] sqlalchemy.engine.Engine: [generated in 0.00423s] ()
+2022-05-12 00:59:46,862 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:59:46,866 [INFO] sqlalchemy.engine.Engine: [cached since 3.577s ago] (1,)
+2022-05-12 00:59:47,040 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:59:51,495 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:59:51,511 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:59:51,518 [INFO] sqlalchemy.engine.Engine: [cached since 8.229s ago] (1,)
+2022-05-12 00:59:51,568 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 00:59:58,142 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 00:59:58,150 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 00:59:58,154 [INFO] sqlalchemy.engine.Engine: [cached since 14.86s ago] (1,)
+2022-05-12 00:59:58,203 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:01,394 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:01,435 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:01,471 [INFO] sqlalchemy.engine.Engine: [cached since 18.18s ago] (1,)
+2022-05-12 01:00:01,622 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:03,667 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:03,676 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:00:03,679 [INFO] sqlalchemy.engine.Engine: [generated in 0.00288s] ()
+2022-05-12 01:00:03,691 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:03,698 [INFO] sqlalchemy.engine.Engine: [cached since 20.41s ago] (1,)
+2022-05-12 01:00:03,736 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:06,831 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:06,845 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:06,855 [INFO] sqlalchemy.engine.Engine: [cached since 23.57s ago] (1,)
+2022-05-12 01:00:06,885 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:17,912 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:17,919 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:17,927 [INFO] sqlalchemy.engine.Engine: [cached since 34.67s ago] (1,)
+2022-05-12 01:00:17,948 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 01:00:17,954 [INFO] sqlalchemy.engine.Engine: [generated in 0.00603s] ('Angel Baby', 1, 0)
+2022-05-12 01:00:17,964 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 01:00:17,972 [INFO] sqlalchemy.engine.Engine: [generated in 0.00835s] ('Angel Baby', 'Troye Sivan', None)
+2022-05-12 01:00:18,006 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:00:18,051 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:18,090 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:00:18,093 [INFO] sqlalchemy.engine.Engine: [cached since 14.45s ago] ()
+2022-05-12 01:00:18,109 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:18,111 [INFO] sqlalchemy.engine.Engine: [cached since 34.86s ago] (1,)
+2022-05-12 01:00:18,124 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:23,216 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:23,222 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:23,227 [INFO] sqlalchemy.engine.Engine: [cached since 39.97s ago] (1,)
+2022-05-12 01:00:23,243 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 01:00:23,246 [INFO] sqlalchemy.engine.Engine: [generated in 0.00305s] (1,)
+2022-05-12 01:00:23,273 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:26,670 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:26,676 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:26,679 [INFO] sqlalchemy.engine.Engine: [cached since 43.42s ago] (1,)
+2022-05-12 01:00:26,690 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 01:00:26,696 [INFO] sqlalchemy.engine.Engine: [cached since 3.454s ago] (1,)
+2022-05-12 01:00:26,709 [INFO] sqlalchemy.engine.Engine: UPDATE songs SET artist=? WHERE songs.id = ?
+2022-05-12 01:00:26,711 [INFO] sqlalchemy.engine.Engine: [generated in 0.00284s] ('Troye S', 1)
+2022-05-12 01:00:26,738 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:00:26,821 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:26,825 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:00:26,831 [INFO] sqlalchemy.engine.Engine: [cached since 23.19s ago] ()
+2022-05-12 01:00:26,844 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:26,847 [INFO] sqlalchemy.engine.Engine: [cached since 43.59s ago] (1,)
+2022-05-12 01:00:26,861 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:00:29,724 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:29,731 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:29,736 [INFO] sqlalchemy.engine.Engine: [cached since 46.48s ago] (1,)
+2022-05-12 01:00:29,744 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.id = ?
+2022-05-12 01:00:29,747 [INFO] sqlalchemy.engine.Engine: [cached since 6.505s ago] (1,)
+2022-05-12 01:00:29,755 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 01:00:29,758 [INFO] sqlalchemy.engine.Engine: [generated in 0.00262s] (1,)
+2022-05-12 01:00:29,780 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:00:29,817 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:00:29,820 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:00:29,823 [INFO] sqlalchemy.engine.Engine: [cached since 26.18s ago] ()
+2022-05-12 01:00:29,835 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:00:29,838 [INFO] sqlalchemy.engine.Engine: [cached since 46.58s ago] (1,)
+2022-05-12 01:00:29,848 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:01:20,360 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:01:20,365 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:01:20,372 [INFO] sqlalchemy.engine.Engine: [cached since 93.65s ago] (10, 0)
+2022-05-12 01:01:20,394 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:01:20,405 [INFO] sqlalchemy.engine.Engine: [cached since 93.66s ago] ()
+2022-05-12 01:01:20,419 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:01:20,563 [INFO] sqlalchemy.engine.Engine: [cached since 97.38s ago] (1,)
+2022-05-12 01:01:20,605 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:01:22,313 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:01:22,319 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:01:22,321 [INFO] sqlalchemy.engine.Engine: [cached since 99.13s ago] (1,)
+2022-05-12 01:01:22,339 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:01:29,287 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:01:29,305 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:01:29,313 [INFO] sqlalchemy.engine.Engine: [cached since 106.1s ago] (1,)
+2022-05-12 01:01:29,364 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:06:16,925 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:06:16,974 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:06:16,986 [INFO] sqlalchemy.engine.Engine: [generated in 0.01218s] (1,)
+2022-05-12 01:06:17,344 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:06:19,647 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:06:19,654 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:06:19,665 [INFO] sqlalchemy.engine.Engine: [generated in 0.01117s] (10, 0)
+2022-05-12 01:06:19,689 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:06:19,692 [INFO] sqlalchemy.engine.Engine: [generated in 0.00358s] ()
+2022-05-12 01:06:19,701 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:06:19,705 [INFO] sqlalchemy.engine.Engine: [cached since 2.732s ago] (1,)
+2022-05-12 01:06:19,842 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:06:21,113 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:06:21,119 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:06:21,126 [INFO] sqlalchemy.engine.Engine: [cached since 4.153s ago] (1,)
+2022-05-12 01:06:21,161 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:06:27,084 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:06:27,090 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:06:27,093 [INFO] sqlalchemy.engine.Engine: [cached since 10.12s ago] (1,)
+2022-05-12 01:06:27,144 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:06:29,832 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:06:29,840 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:06:29,848 [INFO] sqlalchemy.engine.Engine: [cached since 12.87s ago] (1,)
+2022-05-12 01:06:29,869 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:06:32,210 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:06:32,218 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:06:32,221 [INFO] sqlalchemy.engine.Engine: [generated in 0.00322s] ()
+2022-05-12 01:06:32,236 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:06:32,239 [INFO] sqlalchemy.engine.Engine: [cached since 15.26s ago] (1,)
+2022-05-12 01:06:32,277 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:10:41,601 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:10:41,611 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:10:41,614 [INFO] sqlalchemy.engine.Engine: [generated in 0.00327s] (1,)
+2022-05-12 01:10:41,860 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:10:43,618 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:10:43,633 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:10:43,637 [INFO] sqlalchemy.engine.Engine: [generated in 0.00410s] (10, 0)
+2022-05-12 01:10:43,657 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:10:43,661 [INFO] sqlalchemy.engine.Engine: [generated in 0.00416s] ()
+2022-05-12 01:10:43,671 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:10:43,675 [INFO] sqlalchemy.engine.Engine: [cached since 2.064s ago] (1,)
+2022-05-12 01:10:43,831 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:10:45,828 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:10:45,835 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:10:45,838 [INFO] sqlalchemy.engine.Engine: [generated in 0.00308s] ()
+2022-05-12 01:10:45,853 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:10:45,856 [INFO] sqlalchemy.engine.Engine: [cached since 4.277s ago] (1,)
+2022-05-12 01:10:45,889 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:13:51,515 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:13:51,523 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 01:13:51,527 [INFO] sqlalchemy.engine.Engine: [cached since 185.9s ago] ()
+2022-05-12 01:13:51,547 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:13:51,550 [INFO] sqlalchemy.engine.Engine: [cached since 190.2s ago] (1,)
+2022-05-12 01:13:51,563 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:13:55,417 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:13:55,421 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:13:55,424 [INFO] sqlalchemy.engine.Engine: [cached since 192s ago] (10, 0)
+2022-05-12 01:13:55,444 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:13:55,451 [INFO] sqlalchemy.engine.Engine: [cached since 192s ago] ()
+2022-05-12 01:13:55,457 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:13:55,459 [INFO] sqlalchemy.engine.Engine: [cached since 194.1s ago] (1,)
+2022-05-12 01:13:55,473 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:13:57,096 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:13:57,103 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:13:57,108 [INFO] sqlalchemy.engine.Engine: [cached since 195.7s ago] (1,)
+2022-05-12 01:13:57,142 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:14:03,828 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:14:03,832 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:14:03,838 [INFO] sqlalchemy.engine.Engine: [cached since 202.5s ago] (1,)
+2022-05-12 01:14:03,881 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:18:40,311 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:40,330 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:18:40,335 [INFO] sqlalchemy.engine.Engine: [generated in 0.00456s] (1,)
+2022-05-12 01:18:40,787 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:18:43,478 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:43,486 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:18:43,498 [INFO] sqlalchemy.engine.Engine: [cached since 3.168s ago] (1,)
+2022-05-12 01:18:43,527 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-05-12 01:18:43,535 [INFO] sqlalchemy.engine.Engine: [generated in 0.00906s] (0, 1)
+2022-05-12 01:18:43,590 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:18:53,322 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:53,329 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-12 01:18:53,332 [INFO] sqlalchemy.engine.Engine: [generated in 0.00297s] ('bbp45@njit.edu', 1, 0)
+2022-05-12 01:18:53,534 [INFO] sqlalchemy.engine.Engine: UPDATE users SET authenticated=? WHERE users.id = ?
+2022-05-12 01:18:53,537 [INFO] sqlalchemy.engine.Engine: [cached since 10.04s ago] (1, 1)
+2022-05-12 01:18:53,558 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:18:53,585 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:53,588 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:18:53,590 [INFO] sqlalchemy.engine.Engine: [generated in 0.00257s] (1,)
+2022-05-12 01:18:53,603 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:18:53,622 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:53,626 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:18:53,630 [INFO] sqlalchemy.engine.Engine: [cached since 13.33s ago] (1,)
+2022-05-12 01:18:53,654 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:18:56,646 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:56,654 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:18:56,657 [INFO] sqlalchemy.engine.Engine: [generated in 0.00322s] (10, 0)
+2022-05-12 01:18:56,677 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:18:56,681 [INFO] sqlalchemy.engine.Engine: [generated in 0.00389s] ()
+2022-05-12 01:18:56,691 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:18:56,694 [INFO] sqlalchemy.engine.Engine: [cached since 16.4s ago] (1,)
+2022-05-12 01:18:56,842 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:18:57,751 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:18:57,756 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:18:57,761 [INFO] sqlalchemy.engine.Engine: [cached since 17.46s ago] (1,)
+2022-05-12 01:18:57,802 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:19:04,710 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:19:04,714 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:19:04,718 [INFO] sqlalchemy.engine.Engine: [cached since 24.42s ago] (1,)
+2022-05-12 01:19:04,764 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:37:19,092 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,094 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,097 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,103 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:19,106 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,109 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,113 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,116 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:19,119 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,122 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:19,125 [INFO] sqlalchemy.engine.Engine: [no key 0.00310s] ()
+2022-05-12 01:37:19,129 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:19,131 [INFO] sqlalchemy.engine.Engine: [no key 0.00230s] ()
+2022-05-12 01:37:19,134 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,139 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,142 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,144 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,149 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,151 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,155 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,157 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,160 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,163 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,165 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,167 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,170 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,449 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,451 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,453 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,459 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:19,463 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,470 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,472 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,475 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:19,479 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,484 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:19,488 [INFO] sqlalchemy.engine.Engine: [no key 0.00408s] ()
+2022-05-12 01:37:19,491 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:19,494 [INFO] sqlalchemy.engine.Engine: [no key 0.00281s] ()
+2022-05-12 01:37:19,497 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,504 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,507 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,509 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,515 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,518 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,521 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,523 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,526 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,530 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,532 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,535 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,538 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,786 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,788 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,791 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,794 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:19,797 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,800 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,803 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,808 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:19,811 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,815 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:19,817 [INFO] sqlalchemy.engine.Engine: [no key 0.00252s] ()
+2022-05-12 01:37:19,820 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:19,823 [INFO] sqlalchemy.engine.Engine: [no key 0.00274s] ()
+2022-05-12 01:37:19,826 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,831 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,834 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,837 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,839 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,842 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,845 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:19,848 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:19,851 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:19,854 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,857 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:19,860 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:19,864 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,123 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,125 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,128 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,131 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:20,134 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,138 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,141 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,144 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:20,147 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,151 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:20,156 [INFO] sqlalchemy.engine.Engine: [no key 0.00489s] ()
+2022-05-12 01:37:20,164 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:20,178 [INFO] sqlalchemy.engine.Engine: [no key 0.01433s] ()
+2022-05-12 01:37:20,189 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,203 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,209 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,214 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,223 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,226 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,233 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,239 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,242 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,245 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,248 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,251 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,253 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,501 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,506 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,510 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,514 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:20,517 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,521 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,524 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,527 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:20,530 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,533 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:20,536 [INFO] sqlalchemy.engine.Engine: [no key 0.00254s] ()
+2022-05-12 01:37:20,539 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:20,541 [INFO] sqlalchemy.engine.Engine: [no key 0.00271s] ()
+2022-05-12 01:37:20,544 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,552 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,555 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,558 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,560 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,563 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,566 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,570 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,572 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,575 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,578 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,581 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,583 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,806 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,808 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,812 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,818 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:20,820 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,825 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,830 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,833 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:20,836 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,839 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:20,842 [INFO] sqlalchemy.engine.Engine: [no key 0.00320s] ()
+2022-05-12 01:37:20,846 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:20,849 [INFO] sqlalchemy.engine.Engine: [no key 0.00299s] ()
+2022-05-12 01:37:20,852 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,857 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,861 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,864 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,867 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,869 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,873 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:20,877 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:20,880 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:20,882 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,885 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:20,888 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:20,891 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,124 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,126 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,132 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,135 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:21,138 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,141 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,144 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,147 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:21,150 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,153 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:21,155 [INFO] sqlalchemy.engine.Engine: [no key 0.00252s] ()
+2022-05-12 01:37:21,159 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:21,161 [INFO] sqlalchemy.engine.Engine: [no key 0.00280s] ()
+2022-05-12 01:37:21,165 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,170 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,183 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,187 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,191 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,199 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,202 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,205 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,208 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,211 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,214 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,217 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,220 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,477 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,479 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,482 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,489 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:21,492 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,494 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,497 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,499 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:21,502 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,506 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:21,509 [INFO] sqlalchemy.engine.Engine: [no key 0.00280s] ()
+2022-05-12 01:37:21,513 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:21,515 [INFO] sqlalchemy.engine.Engine: [no key 0.00216s] ()
+2022-05-12 01:37:21,518 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,522 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,525 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,528 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,530 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,533 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,537 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,540 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,543 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,545 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,549 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,551 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,554 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,804 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,806 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,811 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,814 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:21,817 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,820 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,825 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,828 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:21,832 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,835 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:21,837 [INFO] sqlalchemy.engine.Engine: [no key 0.00270s] ()
+2022-05-12 01:37:21,841 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:21,845 [INFO] sqlalchemy.engine.Engine: [no key 0.00395s] ()
+2022-05-12 01:37:21,848 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,852 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,856 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,858 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,861 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,863 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,866 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:21,869 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:21,872 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:21,875 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,878 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:21,881 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:21,884 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:22,146 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:22,153 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("songs")
+2022-05-12 01:37:22,164 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:22,169 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("songs")
+2022-05-12 01:37:22,179 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:22,183 [INFO] sqlalchemy.engine.Engine: PRAGMA main.table_info("users")
+2022-05-12 01:37:22,186 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:22,190 [INFO] sqlalchemy.engine.Engine: PRAGMA temp.table_info("users")
+2022-05-12 01:37:22,193 [INFO] sqlalchemy.engine.Engine: [raw sql] ()
+2022-05-12 01:37:22,199 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	email VARCHAR(120) NOT NULL, 
+	password VARCHAR(300) NOT NULL, 
+	about VARCHAR(300), 
+	authenticated BOOLEAN, 
+	registered_on DATETIME, 
+	is_active BOOLEAN DEFAULT '1' NOT NULL, 
+	is_admin BOOLEAN DEFAULT '0' NOT NULL, 
+	PRIMARY KEY (id), 
+	UNIQUE (email), 
+	UNIQUE (password)
+)
+
+
+2022-05-12 01:37:22,206 [INFO] sqlalchemy.engine.Engine: [no key 0.00751s] ()
+2022-05-12 01:37:22,214 [INFO] sqlalchemy.engine.Engine: 
+CREATE TABLE songs (
+	id INTEGER NOT NULL, 
+	title VARCHAR(300), 
+	artist VARCHAR(300), 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2022-05-12 01:37:22,221 [INFO] sqlalchemy.engine.Engine: [no key 0.00719s] ()
+2022-05-12 01:37:22,226 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:22,242 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:22,254 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-05-12 01:37:22,258 [INFO] sqlalchemy.engine.Engine: [generated in 0.00411s] ()
+2022-05-12 01:37:22,270 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:37:22,274 [INFO] sqlalchemy.engine.Engine: [generated in 0.00385s] ()
+2022-05-12 01:37:22,279 [INFO] sqlalchemy.engine.Engine: INSERT INTO users (email, password, about, authenticated, registered_on) VALUES (?, ?, ?, ?, ?)
+2022-05-12 01:37:22,282 [INFO] sqlalchemy.engine.Engine: [generated in 0.00290s] ('bbp45@njit.edu', '2PMHottest', None, 0, '2022-05-12 01:37:22.277086')
+2022-05-12 01:37:22,287 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.email = ?
+ LIMIT ? OFFSET ?
+2022-05-12 01:37:22,290 [INFO] sqlalchemy.engine.Engine: [generated in 0.00351s] ('bbp45@njit.edu', 1, 0)
+2022-05-12 01:37:22,299 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE ? = songs.user_id
+2022-05-12 01:37:22,302 [INFO] sqlalchemy.engine.Engine: [generated in 0.00322s] (1,)
+2022-05-12 01:37:22,307 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 01:37:22,310 [INFO] sqlalchemy.engine.Engine: [generated in 0.00318s] ('test', 'smap', 1)
+2022-05-12 01:37:22,312 [INFO] sqlalchemy.engine.Engine: INSERT INTO songs (title, artist, user_id) VALUES (?, ?, ?)
+2022-05-12 01:37:22,315 [INFO] sqlalchemy.engine.Engine: [cached since 0.008611s ago] ('test2', 'te', 1)
+2022-05-12 01:37:22,319 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:22,323 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:22,326 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:37:22,329 [INFO] sqlalchemy.engine.Engine: [cached since 0.05928s ago] ()
+2022-05-12 01:37:22,334 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 01:37:22,337 [INFO] sqlalchemy.engine.Engine: [generated in 0.00306s] ('test', 1, 0)
+2022-05-12 01:37:22,341 [INFO] sqlalchemy.engine.Engine: UPDATE songs SET title=? WHERE songs.id = ?
+2022-05-12 01:37:22,344 [INFO] sqlalchemy.engine.Engine: [generated in 0.00295s] ('SuperSongTitle', 1)
+2022-05-12 01:37:22,348 [INFO] sqlalchemy.engine.Engine: COMMIT
+2022-05-12 01:37:22,351 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:37:22,354 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE songs.title = ?
+ LIMIT ? OFFSET ?
+2022-05-12 01:37:22,357 [INFO] sqlalchemy.engine.Engine: [cached since 0.02337s ago] ('SuperSongTitle', 1, 0)
+2022-05-12 01:37:22,361 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:37:22,364 [INFO] sqlalchemy.engine.Engine: [generated in 0.00255s] (1,)
+2022-05-12 01:37:22,367 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs 
+WHERE ? = songs.user_id
+2022-05-12 01:37:22,370 [INFO] sqlalchemy.engine.Engine: [cached since 0.07138s ago] (1,)
+2022-05-12 01:37:22,374 [INFO] sqlalchemy.engine.Engine: DELETE FROM songs WHERE songs.id = ?
+2022-05-12 01:37:22,377 [INFO] sqlalchemy.engine.Engine: [generated in 0.00282s] ((1,), (2,))
+2022-05-12 01:37:22,383 [INFO] sqlalchemy.engine.Engine: DELETE FROM users WHERE users.id = ?
+2022-05-12 01:37:22,386 [INFO] sqlalchemy.engine.Engine: [generated in 0.00372s] (1,)
+2022-05-12 01:37:22,390 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users) AS anon_1
+2022-05-12 01:37:22,393 [INFO] sqlalchemy.engine.Engine: [cached since 0.1396s ago] ()
+2022-05-12 01:37:22,399 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:37:22,402 [INFO] sqlalchemy.engine.Engine: [cached since 0.1322s ago] ()
+2022-05-12 01:37:22,405 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:38:40,961 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:38:40,973 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:38:40,977 [INFO] sqlalchemy.engine.Engine: [generated in 0.00575s] (1,)
+2022-05-12 01:38:41,323 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:38:44,138 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:38:44,146 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:38:44,149 [INFO] sqlalchemy.engine.Engine: [generated in 0.00306s] (10, 0)
+2022-05-12 01:38:44,181 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:38:44,186 [INFO] sqlalchemy.engine.Engine: [generated in 0.00450s] ()
+2022-05-12 01:38:44,201 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:38:44,209 [INFO] sqlalchemy.engine.Engine: [cached since 3.271s ago] (1,)
+2022-05-12 01:38:44,379 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:38:45,244 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:38:45,247 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:38:45,253 [INFO] sqlalchemy.engine.Engine: [cached since 4.315s ago] (1,)
+2022-05-12 01:38:45,289 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:38:58,543 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:38:58,546 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:38:58,551 [INFO] sqlalchemy.engine.Engine: [cached since 17.61s ago] (1,)
+2022-05-12 01:38:58,591 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:59:43,284 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:59:43,291 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:59:43,295 [INFO] sqlalchemy.engine.Engine: [generated in 0.00375s] (1,)
+2022-05-12 01:59:44,190 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:59:46,716 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:59:46,724 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 01:59:46,728 [INFO] sqlalchemy.engine.Engine: [generated in 0.00399s] (10, 0)
+2022-05-12 01:59:46,751 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 01:59:46,754 [INFO] sqlalchemy.engine.Engine: [generated in 0.00295s] ()
+2022-05-12 01:59:46,763 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:59:46,768 [INFO] sqlalchemy.engine.Engine: [cached since 3.477s ago] (1,)
+2022-05-12 01:59:46,934 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:59:47,918 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:59:47,923 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:59:47,927 [INFO] sqlalchemy.engine.Engine: [cached since 4.636s ago] (1,)
+2022-05-12 01:59:47,965 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 01:59:54,073 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 01:59:54,078 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 01:59:54,083 [INFO] sqlalchemy.engine.Engine: [cached since 10.79s ago] (1,)
+2022-05-12 01:59:54,127 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:05:27,704 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:05:27,712 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:05:27,716 [INFO] sqlalchemy.engine.Engine: [generated in 0.00408s] (1,)
+2022-05-12 02:05:28,053 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:05:30,890 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:05:30,903 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 02:05:30,907 [INFO] sqlalchemy.engine.Engine: [generated in 0.00398s] (10, 0)
+2022-05-12 02:05:30,928 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 02:05:30,932 [INFO] sqlalchemy.engine.Engine: [generated in 0.00316s] ()
+2022-05-12 02:05:30,944 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:05:30,948 [INFO] sqlalchemy.engine.Engine: [cached since 3.236s ago] (1,)
+2022-05-12 02:05:31,080 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:05:32,268 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:05:32,276 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:05:32,283 [INFO] sqlalchemy.engine.Engine: [cached since 4.571s ago] (1,)
+2022-05-12 02:05:32,317 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:05:38,772 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:05:38,776 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:05:38,786 [INFO] sqlalchemy.engine.Engine: [cached since 11.07s ago] (1,)
+2022-05-12 02:05:38,856 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:07:33,181 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:07:33,190 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:07:33,192 [INFO] sqlalchemy.engine.Engine: [generated in 0.00237s] (1,)
+2022-05-12 02:07:33,446 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:07:36,257 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:07:36,265 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 02:07:36,272 [INFO] sqlalchemy.engine.Engine: [generated in 0.00732s] (10, 0)
+2022-05-12 02:07:36,290 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 02:07:36,292 [INFO] sqlalchemy.engine.Engine: [generated in 0.00285s] ()
+2022-05-12 02:07:36,303 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:07:36,306 [INFO] sqlalchemy.engine.Engine: [cached since 3.116s ago] (1,)
+2022-05-12 02:07:36,446 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:07:37,577 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:07:37,582 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:07:37,586 [INFO] sqlalchemy.engine.Engine: [cached since 4.396s ago] (1,)
+2022-05-12 02:07:37,617 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:07:47,737 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:07:47,741 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:07:47,745 [INFO] sqlalchemy.engine.Engine: [cached since 14.59s ago] (1,)
+2022-05-12 02:07:47,791 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:09:23,867 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:09:23,877 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:09:23,885 [INFO] sqlalchemy.engine.Engine: [cached since 110.8s ago] (1,)
+2022-05-12 02:09:23,910 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:11:38,635 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:11:38,643 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:11:38,648 [INFO] sqlalchemy.engine.Engine: [generated in 0.00559s] (1,)
+2022-05-12 02:11:38,943 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:11:41,736 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:11:41,755 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 02:11:41,760 [INFO] sqlalchemy.engine.Engine: [generated in 0.00571s] (10, 0)
+2022-05-12 02:11:41,778 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 02:11:41,780 [INFO] sqlalchemy.engine.Engine: [generated in 0.00239s] ()
+2022-05-12 02:11:41,787 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:11:41,790 [INFO] sqlalchemy.engine.Engine: [cached since 3.182s ago] (1,)
+2022-05-12 02:11:41,920 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:11:42,964 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:11:42,968 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 02:11:42,971 [INFO] sqlalchemy.engine.Engine: [generated in 0.00297s] ()
+2022-05-12 02:11:42,985 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:11:42,987 [INFO] sqlalchemy.engine.Engine: [cached since 4.379s ago] (1,)
+2022-05-12 02:11:43,018 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:11:45,624 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:11:45,637 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+ LIMIT ? OFFSET ?
+2022-05-12 02:11:45,641 [INFO] sqlalchemy.engine.Engine: [cached since 3.886s ago] (10, 0)
+2022-05-12 02:11:45,654 [INFO] sqlalchemy.engine.Engine: SELECT count(*) AS count_1 
+FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs) AS anon_1
+2022-05-12 02:11:45,657 [INFO] sqlalchemy.engine.Engine: [cached since 3.878s ago] ()
+2022-05-12 02:11:45,663 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:11:45,667 [INFO] sqlalchemy.engine.Engine: [cached since 7.059s ago] (1,)
+2022-05-12 02:11:45,677 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-12 02:14:16,227 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-12 02:14:16,232 [INFO] sqlalchemy.engine.Engine: SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS songs_artist, songs.user_id AS songs_user_id 
+FROM songs
+2022-05-12 02:14:16,237 [INFO] sqlalchemy.engine.Engine: [cached since 153.4s ago] ()
+2022-05-12 02:14:16,253 [INFO] sqlalchemy.engine.Engine: SELECT users.is_active AS users_is_active, users.id AS users_id, users.email AS users_email, users.password AS users_password, users.about AS users_about, users.authenticated AS users_authenticated, users.registered_on AS users_registered_on, users.is_admin AS users_is_admin 
+FROM users 
+WHERE users.id = ?
+2022-05-12 02:14:16,256 [INFO] sqlalchemy.engine.Engine: [cached since 157.8s ago] (1,)
+2022-05-12 02:14:16,265 [INFO] sqlalchemy.engine.Engine: ROLLBACK
