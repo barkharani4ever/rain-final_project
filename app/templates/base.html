@@ -5,6 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
         {% block styles %}
             <!-- Bootstrap CSS -->
@@ -36,6 +37,8 @@
                             {{ render_nav_item('auth.dashboard','Dashboard' ) }}
                             {% if current_user.is_admin %}
                                 {{ render_nav_item('auth.browse_users','User Management' ) }}
+                                {{ render_nav_item('songs.songs_browse','Song Management' ) }}
+                                {{ render_nav_item('songs.browse_songs_datatables','Song Management (dt)' ) }}
                             {% endif %}
 
                         {% else %}
@@ -55,7 +58,6 @@
                             <ul class="dropdown-menu " aria-labelledby="navbarDarkDropdownMenuLink">
                                 <li><a class="dropdown-item" href="{{ url_for("auth.edit_profile") }}">Manage Profile</a></li>
                                 <li><a class="dropdown-item" href="{{ url_for("auth.edit_account") }}">Manage Account</a></li>
-                                <li><a class="dropdown-item" href="{{ url_for("songs.browse_songs_datatables") }}">Song Management</a></li>
                                 <li><a class="dropdown-item" href="{{ url_for("auth.logout") }}">Logout</a></li>
                             </ul>
                         </li>
