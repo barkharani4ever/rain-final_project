@@ -21,7 +21,7 @@ songs = Blueprint('songs', __name__,
 @songs.route('/songs/<int:page>', methods=['GET'])
 def songs_browse(page):
     page = page
-    per_page = 10
+    per_page = 9
     pagination = Song.query.paginate(page, per_page, error_out=False)
     data = pagination.items
     try:
